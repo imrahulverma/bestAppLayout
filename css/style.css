@@ -24,30 +24,30 @@ nav{
 }
 .hero{
     background-color: cadetblue;
-    height:80vh;
+    height:450px;
 }
 .appfeatures{
-    background-color: bisque;
+    background-color: coral;
     display: flex;
-    
+    width: 100vw;
     justify-content: space-evenly;
 }
 .appfeatures article{
     margin:30px 0px ;
     flex-basis: 25%;
-    background-color: whitesmoke;
+    background-color: crimson;
     height: 300px;
 }
 .about{
     background-color: salmon;
-    height: 60vh;
+    height: 400px;
 }
 .review{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: cornflowerblue;
-    height: 40vh;
+    height: 400px;
 
 }
 .review article{
@@ -58,7 +58,7 @@ nav{
 .plans{
     display: flex;
     justify-content: space-evenly;
-    height: 70vh;
+    height: 600px;
     background-color: violet;
     align-items: center;
 }
@@ -69,5 +69,8 @@ nav{
 }
 .contact{
     background-color: springgreen;
-    height: 70vh;
+    height: 400PX;
+}
+footer{
+    height: 50px;
 }
